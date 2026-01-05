@@ -5,14 +5,14 @@
 h1 {
     font-family: ChopinScript;
     color: white;
-    font-size: 100px;
+    font-size: 2rem;
     text-shadow: 5px 6px 2px #4d5b5b;
     mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 60%, transparent);
     z-index: 3;
     font-weight: 100;
     position: relative;
-    top: 150px;
-
+    bottom: 0.5rem;
+    
 }
 
 .caja {
@@ -26,13 +26,13 @@ rgba(205, 172, 108, 0.888) 48%,
 #cb984bd5);
   outline: none;
   border-radius: 50px;
-  padding-top: 5%;
-  padding-bottom: 15%;
+  padding-top: 8%;
+  padding-bottom: 22%;
   padding-left: 8%;
-  padding-right: 10%;
-  margin-top: 10%;
-  width: 1200px;
-  height: 350px;
+  padding-right: 8%;
+  margin-top: 14%;
+  width: 20rem;
+  height: 10rem;;
   font-family: ChopinScript;
   text-shadow: 0px 0px 12px #4d5b5b;
   color: #ffffffd2;
@@ -46,57 +46,6 @@ rgba(205, 172, 108, 0.888) 48%,
 
 }
 
-.texto {
-    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
-    padding: 10px;
-    text-shadow: 5px 2px 2px #4d5b5b;
-    font-size: 32px;
-    
-}
-
-.texto1 {
-    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
-    padding: 10px;
-    text-shadow: 5px 2px 2px #4d5b5b;
-    font-size: 32px;
-}
-
-.texto2 {
-    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
-    padding: 10px;
-    text-shadow: 5px 2px 2px #4d5b5b;
-    font-size: 30px;
-}
-
-.texto3 {
-    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
-    padding: 10px;
-    text-shadow: 5px 2px 2px #4d5b5b;
-    font-size: 32px;
-}
-
-.texto4 {
-    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
-    padding: 10px;
-    text-shadow: 5px 2px 2px #4d5b5b;
-    text-align: center;
-    font-size: 64px;
-}
-
-.texto5 {
-    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
-    padding: 10px;
-    text-shadow: 5px 2px 2px #4d5b5b;
-    text-align: center;
-    font-size: 48px;
-}
-
-
-@font-face {
-    font-family: ChopinScript;
-    src: url(ChopinScript.ttf);
-}
-
 body{
     background-image: url(arbol-de-navidad.jpg);
     background-attachment: fixed;
@@ -107,7 +56,66 @@ body{
     justify-content: center;
     display: grid;
     place-items: center;
+    width: 100%;
 }
+
+.texto {
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
+    padding: 10px;
+    text-shadow: 5px 2px 2px #4d5b5b;
+    font-size: 0.5rem;
+    width: 100%;
+}
+
+.texto1 {
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
+    padding: 10px;
+    text-shadow: 5px 2px 2px #4d5b5b;
+    font-size: 0.5rem;
+    width: 100%;
+}
+
+.texto2 {
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
+    padding: 10px;
+    text-shadow: 5px 2px 2px #4d5b5b;
+    font-size: 0.5rem;
+    width: 100%;
+}
+
+.texto3 {
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
+    padding: 10px;
+    text-shadow: 5px 2px 2px #4d5b5b;
+    font-size: 0.5rem;
+    width: 100%;
+}
+
+.texto4 {
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
+    padding: 10px;
+    text-shadow: 5px 2px 2px #4d5b5b;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.texto5 {
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
+    padding: 10px;
+    text-shadow: 5px 2px 2px #4d5b5b;
+    text-align: center;
+    font-size: 0.7rem;
+    width: 100%;
+}
+
+
+@font-face {
+    font-family: ChopinScript;
+    src: url(ChopinScript.ttf);
+}
+
+
 
 .snowflake {
   position: absolute;
@@ -145,7 +153,7 @@ body{
 
 .polaroid {
   position: relative;
-  top: 150px;
+  top: 5rem;
   border-radius: 1%;
   border: 1px solid #ccc;
   background-color: #fff;
@@ -156,10 +164,8 @@ body{
     0 3rem 3rem rgba(0, 0, 0, 0.3),
     0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
   display: inline-block;
-  width: 900px;
-
-  margin: 20px;
-  padding: 30px; 
+  width: 20rem;
+  padding: 0.6rem; 
 }
 
 .polaroid img {
@@ -172,10 +178,10 @@ body{
 
 .caption {
   text-align: center;
-  padding: 10px 0;
+  padding: 0 0;
   font-family: ChopinScript;
-  font-size: 100px;
-  margin-top: 40px;
+  font-size: 2em;
+  margin-top: 0.6rem;
   mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 90%, transparent);
   color: black;
   text-shadow: 12px 6px 1px #bebebe;
@@ -185,14 +191,14 @@ body{
 
 .boton-enlace {
     display: inline-block; /* Para poder posicionarlos y aplicar transform */
-    padding: 20px 20px;
+    padding: 1rem 1rem;
     border: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
     text-decoration: none; /* Quita el subrayado del enlace */
     border-radius: 50%;
-    margin: 10px;
-    height: 50px;
-    width: 50px;
+    margin: 1rem;
+    height: 0.1rem;
+    width: 0.1rem;
     cursor: pointer;
     /* Importante para que las posiciones absolutas se controlen */
     position: relative; 
@@ -204,37 +210,37 @@ body{
 
 .boton1 {
     /* Ejemplo 1: Mover ligeramente hacia abajo y a la derecha */
-    bottom: 525px;
-    left: 170px;
+    bottom: 5rem;
+    left: 7.4rem;
     
     
 }
 
 .boton2 {
     /* Ejemplo 2: Mover más abajo y a la izquierda */
-    bottom: 320px;
-    left: 100px;
+    bottom: 0.55rem;
+    left: 4rem;
 }
 
 .boton3 {
     /* Ejemplo 3: Usando transform para un movimiento relativo */
     /* Puedes usar transform: translate(x, y); */
-    bottom: 705px;
-    right: 33.8px;
+    bottom: 9rem;
+    right: 0.8rem;
 }
 
 .boton4 {
     /* Ejemplo 4: Posición absoluta dentro de un contenedor (¡Ojo! Requiere un contenedor con position: relative) */
     /* Si no hay contenedor, se posicionará respecto al body */
     position: relative;
-    bottom: 735px;
-    right: 305px;
+    bottom: 9.7rem;
+    right: 8.5rem;
 }
 
 .boton5 {
     /* Ejemplo 5: Otro desplazamiento */
-    bottom: 630px;
-    right: 93px;
+    bottom: 7.2rem;
+    right: 5.7rem;
 }
 
 /* Efecto hover */
@@ -255,14 +261,14 @@ rgba(205, 172, 108, 0.888) 48%,
 #cb984bd5);
   outline: none;
   border-radius: 50px;
-  padding-top: 5%;
+  padding-top: 7%;
   padding-bottom: 7%;
-  padding-left: 7%;
-  padding-right: 5%;
-  margin-top: 10%;
-  font-size: 32px;
-  width: 500px;
-  height: 200px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 30%;
+  font-size: 0.9rem;
+  width: 14rem;
+  height: 6rem;
   font-family: ChopinScript;
   text-shadow: 2px 2px 3px #4d5b5b;
   color: #ffffffd2;
@@ -277,14 +283,14 @@ rgba(205, 172, 108, 0.888) 48%,
 
 .exp1{
   text-align: center;
-  font-size: 48px;
+  font-size: 1rem;
   padding-bottom: 10px;
 }
 
 .inicio {
 text-decoration: none;
 position: relative;
-bottom: -200px;
+bottom: -150px;
 margin-bottom: 5%;
 z-index: 2;
 background: #cb984bd5;
@@ -298,9 +304,10 @@ rgba(205, 172, 108, 0.888) 48%,
   padding-bottom: 30%;
   padding-left: 30%;
   padding-right: 30%;
-  font-size: 36px;
+  font-size: 1rem;
   width: 500px;
   height: 200px;
+  right:0.9rem;
   font-family: ChopinScript;
   text-shadow: 2px 2px 3px #4d5b5b;
   color: #ffffffd2;
@@ -312,4 +319,25 @@ rgba(205, 172, 108, 0.888) 48%,
     0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
     
   
+}
+
+#reproductor {
+  position: relative;
+  z-index: 4;
+}
+
+::-webkit-media-controls-panel {
+    background-color: #cb984bd5;
+    border-radius: 50px;
+      box-shadow:
+    inset 0 0.3rem 0.9rem rgba(255, 255, 255, 0.3),
+    inset 0 -0.1rem 0.3rem rgba(0, 0, 0, 0.7),
+    inset 0 -0.4rem 0.9rem rgba(255, 255, 255, 0.5),
+    0 3rem 3rem rgba(0, 0, 0, 0.3),
+    0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
+}
+::-webkit-media-controls-play-button {
+    background-color: #ffffff;
+    border-radius: 50px;
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 70%, transparent);
 }

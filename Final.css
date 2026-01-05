@@ -2,7 +2,6 @@
   width: 0;
 }
 
-
 body{
     background-image: url(arbol-de-navidad.jpg);
     background-attachment: fixed;
@@ -13,6 +12,7 @@ body{
     justify-content: center;
     display: grid;
     place-items: center;
+    width: 100%;
 }
 
 .snowflake {
@@ -57,14 +57,15 @@ body{
 h1{
     font-family: ChopinScript;
     color: white;
-    font-size: 100px;
+    font-size: 1.5rem;
     text-shadow: 5px 6px 2px #4d5b5b;
     mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 60%, transparent);
     z-index: 3;
     font-weight: 100;
     position: relative;
-    top: 135px;
-    left: 400px;
+    top: 10.2rem;
+    left: 7rem;
+    
 }
 
 .caja {
@@ -80,11 +81,11 @@ rgba(205, 172, 108, 0.888) 48%,
   border-radius: 50px;
   padding-top: 5%;
   padding-bottom: 15%;
-  padding-left: 8%;
-  padding-right: 40%;
+  padding-left: 3%;
+  padding-right: 3%;
   margin-top: 10%;
-  width: 1200px;
-  height: 350px;
+  width: 24rem;
+  height: 10rem;
   font-family: ChopinScript;
   text-shadow: 0px 0px 12px #4d5b5b;
   color: #ffffffd2;
@@ -94,16 +95,14 @@ rgba(205, 172, 108, 0.888) 48%,
     inset 0 -0.4rem 0.9rem rgba(255, 255, 255, 0.5),
     0 3rem 3rem rgba(0, 0, 0, 0.3),
     0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
-  font-size: 32px;
+  font-size: 1rem;
+  top: 15%
 }
 
 img {
     position: relative;
-    width: 750px;
-    height: 510px;
-    bottom: 695px;
-    z-index: 2;
-    left: 420px;
+    width: 8rem;
+    height: 8rem;
     box-shadow:
     inset 0 0.3rem 0.9rem rgba(255, 255, 255, 0.3),
     inset 0 -0.1rem 0.3rem rgba(0, 0, 0, 0.7),
@@ -112,12 +111,15 @@ img {
     0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
     border: 2px solid #cb984bd5;
     border-radius: 15%;
+    left: 7rem;
+    bottom: 9.3rem;
+    z-index: 4;
 }
 
 .boton1{
 position: relative;
 text-decoration: none;
-bottom: 400px;
+
 z-index: 2;
 background: #cb984bd5;
 background: linear-gradient(90deg, #cb984bd5 0%, 
@@ -126,11 +128,11 @@ rgba(205, 172, 108, 0.888) 48%,
   outline: none;
   border-radius: 50px;
   border: 2px solid #cb984bd5;
-  padding-top: 30%;
-  padding-bottom: 30%;
-  padding-left: 30%;
-  padding-right: 30%;
-  font-size: 50px;
+  padding-top: 10%;
+  padding-bottom: 15%;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 1rem;
   width: 500px;
   height: 200px;
   font-family: ChopinScript;
@@ -142,70 +144,77 @@ rgba(205, 172, 108, 0.888) 48%,
     inset 0 -0.4rem 0.9rem rgba(255, 255, 255, 0.5),
     0 3rem 3rem rgba(0, 0, 0, 0.3),
     0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
-    
-  
 }
+
 
 .texto1 {
     mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
-    padding: 10px;
+    padding: 0.5rem;
+    padding-bottom: 0.3rem;
     text-shadow: 5px 2px 2px #4d5b5b;
-    font-size: 28px;
+    font-size: 0.5rem;
     
 }
 
 .texto2 {
-    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
-    padding: 10px;
+   mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
+    padding: 0.5rem;
+    padding-bottom: 0.3rem;
     text-shadow: 5px 2px 2px #4d5b5b;
-    font-size: 28px;
+    font-size: 0.5rem;
 }
 
 .texto3 {
-   mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
-    padding: 10px;
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
+    padding: 0.5rem;
+    padding-bottom: 0.3rem;
     text-shadow: 5px 2px 2px #4d5b5b;
-    font-size: 28px;
+    font-size: 0.5rem;
 }
 
 .texto4 {
     mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
-    padding: 10px;
+    padding: 0.5rem;
+    padding-bottom: 0.3rem;
     text-shadow: 5px 2px 2px #4d5b5b;
-    font-size: 28px;
+    font-size: 0.5rem;
 }
 
 .texto5 {
     mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
-    padding: 10px;
+    padding: 0.5rem;
+    padding-bottom: 0.3rem;
     text-shadow: 5px 2px 2px #4d5b5b;
-    font-size: 28px;
+    font-size: 0.5rem;
 }
 
 .texto6 {
     mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
-    padding: 10px;
+    padding: 0.5rem;
+    padding-bottom: 0.3rem;
     text-shadow: 5px 2px 2px #4d5b5b;
-    font-size: 28px;
+    font-size: 0.5rem;
 }
 
 .texto7{
   mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
-    padding: 10px;
+    padding: 0.5rem;
+    padding-bottom: 0.3rem;
     text-shadow: 5px 2px 2px #4d5b5b;
-    font-size: 28px;
+    font-size: 0.5rem;
 }
 
 .texto8{
   mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 45%, transparent);
-    padding: 10px;
+    padding: 0.5rem;
+    padding-bottom: 0.3rem;
     text-shadow: 5px 2px 2px #4d5b5b;
-    font-size: 28px;
+    font-size: 0.5rem;
 }
 
 #reproductor {
   position: relative;
-  bottom: 180px; 
+  bottom: 0px; 
   z-index: 4;
 }
 
