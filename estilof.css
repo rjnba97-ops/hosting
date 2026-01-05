@@ -210,7 +210,7 @@ body{
 
 .boton1 {
     /* Ejemplo 1: Mover ligeramente hacia abajo y a la derecha */
-    bottom: 5rem;
+    bottom: 9rem;
     left: 7.4rem;
     
     
@@ -218,14 +218,14 @@ body{
 
 .boton2 {
     /* Ejemplo 2: Mover más abajo y a la izquierda */
-    bottom: 0.55rem;
+    bottom: 5rem;
     left: 4rem;
 }
 
 .boton3 {
     /* Ejemplo 3: Usando transform para un movimiento relativo */
     /* Puedes usar transform: translate(x, y); */
-    bottom: 9rem;
+    bottom: 13rem;
     right: 0.8rem;
 }
 
@@ -233,13 +233,13 @@ body{
     /* Ejemplo 4: Posición absoluta dentro de un contenedor (¡Ojo! Requiere un contenedor con position: relative) */
     /* Si no hay contenedor, se posicionará respecto al body */
     position: relative;
-    bottom: 9.7rem;
+    bottom: 14rem;
     right: 8.5rem;
 }
 
 .boton5 {
     /* Ejemplo 5: Otro desplazamiento */
-    bottom: 7.2rem;
+    bottom: 11.5rem;
     right: 5.7rem;
 }
 
@@ -253,7 +253,7 @@ body{
 
 .kaja{
 position: relative;
-top: 60px;
+bottom: 1em;
 z-index: 2;
 background: #cb984bd5;
 background: linear-gradient(90deg, #cb984bd5 0%, 
@@ -290,8 +290,8 @@ rgba(205, 172, 108, 0.888) 48%,
 .inicio {
 text-decoration: none;
 position: relative;
-bottom: -150px;
-margin-bottom: 5%;
+bottom: -50px;
+margin-bottom: 10%;
 z-index: 2;
 background: #cb984bd5;
 background: linear-gradient(90deg, #cb984bd5 0%, 
