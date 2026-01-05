@@ -1,0 +1,254 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body{
+    background-image: url(arbol-de-navidad.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+   
+}
+    
+#abu{
+    border-radius: 15%;
+    filter: drop-shadow(15px 6px 2px #ca974ab6);
+    box-shadow:
+    inset 0 0.3rem 0.9rem rgba(255, 255, 255, 0.3),
+    inset 0 -0.1rem 0.3rem rgba(0, 0, 0, 0.7),
+    inset 0 -0.4rem 0.9rem rgba(255, 255, 255, 0.5),
+    0 3rem 3rem rgba(0, 0, 0, 0.3),
+    0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
+
+    height: 600px;
+    width: 400px;
+    position: relative;
+    bottom: 0px;
+    z-index: 3;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+@font-face {
+    font-family: ChopinScript;
+    src: url(fuentes/ChopinScript.ttf);
+}
+
+
+.button {
+  --white: #ffe7ff;
+  --bg: #cb984bd5;
+  --radius: 50px;
+  margin-bottom: 250px;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  position: relative;
+  border-radius: var(--radius);
+  background-color: var(--bg);
+  transition: all 0.2s ease;
+  box-shadow:
+    inset 0 0.3rem 0.9rem rgba(255, 255, 255, 0.3),
+    inset 0 -0.1rem 0.3rem rgba(0, 0, 0, 0.7),
+    inset 0 -0.4rem 0.9rem rgba(255, 255, 255, 0.5),
+    0 3rem 3rem rgba(0, 0, 0, 0.3),
+    0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
+
+}
+.button .wrap {
+  font-size: 36px;
+  font-weight: 500;
+  font-family: ChopinScript;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 32px 40px;
+  border-radius: inherit;
+  position: relative;
+  overflow: hidden;
+}
+.button .wrap p span:nth-child(2) {
+  display: none;
+}
+.button:hover .wrap p span:nth-child(1) {
+  display: none;
+}
+.button:hover .wrap p span:nth-child(2) {
+  display: inline-block;
+}
+.button .wrap p {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  transition: all 0.2s ease;
+  transform: translateY(2%);
+  mask-image: linear-gradient(to bottom, white 40%, transparent);
+}
+.button .wrap::before,
+.button .wrap::after {
+  content: "";
+  position: absolute;
+  transition: all 0.3s ease;
+}
+.button .wrap::before {
+  left: -15%;
+  right: -15%;
+  bottom: 25%;
+  top: -100%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.12);
+}
+.button .wrap::after {
+  left: 6%;
+  right: 6%;
+  top: 12%;
+  bottom: 40%;
+  border-radius: 22px 22px 0 0;
+  box-shadow: inset 0 10px 8px -10px rgba(255, 255, 255, 0.8);
+  background: linear-gradient(
+    180deg,
+    #8f6e4667 , 
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.button:hover {
+  box-shadow:
+    inset 0 0.3rem 0.5rem rgba(255, 255, 255, 0.4),
+    inset 0 -0.1rem 0.3rem rgba(0, 0, 0, 0.7),
+    inset 0 -0.4rem 0.9rem rgba(255, 255, 255, 0.7),
+    0 3rem 3rem rgba(0, 0, 0, 0.3),
+    0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
+}
+.button:hover .wrap::before {
+  transform: translateY(-5%);
+}
+.button:hover .wrap::after {
+  opacity: 0.4;
+  transform: translateY(5%);
+}
+.button:hover .wrap p {
+  transform: translateY(-4%);
+}
+.button:active {
+  transform: translateY(4px);
+  box-shadow:
+    inset 0 0.3rem 0.5rem rgba(255, 255, 255, 0.5),
+    inset 0 -0.1rem 0.3rem rgba(0, 0, 0, 0.8),
+    inset 0 -0.4rem 0.9rem rgba(255, 255, 255, 0.4),
+    0 3rem 3rem rgba(0, 0, 0, 0.3),
+    0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
+}
+
+.container-box{
+  background: #cb984bd5;
+background: linear-gradient(90deg, #cb984bd5 0%, 
+rgba(205, 172, 108, 0.888) 48%, 
+#cb984bd5);
+  outline: none;
+  border-radius: 50px;
+  padding-top: 3%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 10%;
+  font-size: 36px;
+  width: 800px;
+  height: 350px;
+  font-family: ChopinScript;
+  text-shadow: 5px 2px 2px #4d5b5b;
+  color: #ffffffd2;
+  box-shadow:
+    inset 0 0.3rem 0.9rem rgba(255, 255, 255, 0.3),
+    inset 0 -0.1rem 0.3rem rgba(0, 0, 0, 0.7),
+    inset 0 -0.4rem 0.9rem rgba(255, 255, 255, 0.5),
+    0 3rem 3rem rgba(0, 0, 0, 0.3),
+    0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
+  
+}
+
+.t-box {
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 60%, transparent);
+  text-align: center;
+}
+
+.p1 {
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 50%, transparent);
+  
+  
+}
+
+.p2 {
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 50%, transparent);
+  
+}
+
+.p3 {
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 50%, transparent);
+  
+}
+
+.u-box {
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 40%, transparent);
+  
+}
+
+.snowflake {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  opacity: 0.8;
+  animation: fall 10s linear 1;
+  top: -5%;
+  z-index: 3;
+}
+
+@keyframes fall {
+    
+  0%{
+      transform: translateX(0) translateY(-10vh) rotate(0deg);
+  }
+
+  25% {
+      transform: translateX(10px) translateY(20vh) rotate(0deg);
+  }
+    
+  50%{
+    transform: translateX(20px) translateY(50vh) rotate(180deg);
+  }
+
+  75% 
+  {
+    transform: translateX(0px) translateY(100vh) rotate(180deg);
+  }
+  100%{
+    transform: translateX(-20px) translateY(150vh) rotate(180deg);
+    opacity: 0.5;
+  }
+}
+
+#reproductor {
+  position: relative;
+  top: 75px;
+  z-index: 4;
+}
+
+::-webkit-media-controls-panel {
+    background-color: #cb984bd5;
+    border-radius: 50px;
+      box-shadow:
+    inset 0 0.3rem 0.9rem rgba(255, 255, 255, 0.3),
+    inset 0 -0.1rem 0.3rem rgba(0, 0, 0, 0.7),
+    inset 0 -0.4rem 0.9rem rgba(255, 255, 255, 0.5),
+    0 3rem 3rem rgba(0, 0, 0, 0.3),
+    0 1rem 1rem -0.6rem rgba(0, 0, 0, 0.8);
+}
+::-webkit-media-controls-play-button {
+    background-color: #ffffff;
+    border-radius: 50px;
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 70%, transparent);
+}
